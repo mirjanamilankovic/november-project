@@ -1,0 +1,166 @@
+
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Quicksand', sans-serif;
+    background-color:#f3f3f3;
+}
+
+.wrap {
+    max-width: 960px;
+    margin:0 auto;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    }
+
+        .sidebar {
+            flex-basis: 30%;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+            border-radius:4px;
+        }
+
+            .sidebar__top {
+                background-color: #c0e3e7;
+            }
+
+                .sidebar__top__image {
+                    border-radius:50%;
+                    padding:40px;
+                    object-fit: cover;
+                    object-position: center;
+                    margin:0 auto;
+                    display: block;
+                }
+
+                .sidebar__top__title{
+                    text-transform: uppercase;
+                    text-align: center;
+                    font-size: 18px;
+                    margin:0;
+                    padding-bottom: 25px;
+                }
+
+                .sidebar__top__subtitle {
+                    font-size: 16px;
+                    color:#53a3ac;
+                    margin:0;
+                    text-align: center;
+                    padding-bottom: 32px;
+                }
+
+                    .sidebar__top__subtitle span {
+                        padding:0 10px;
+                    }
+
+        a {
+            text-decoration: none;
+        }                
+
+                .sidebar__icon {
+                    padding:30px;
+                    text-align: center;
+                    font-family: Roboto;
+                }
+
+                    .facebook__icon {
+                        margin-right: 30px;
+                        fill:#53a3ac;
+                    }
+
+                    .instagram__icon {
+                        fill:#53a3ac;
+                    }
+
+            .sidebar__bottom {
+                background-color: #ffffff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding:25px;
+    
+            }
+
+                .sidebar__button {
+                    width:210px;
+                    height: 40px;
+                    background-color: #53a3ac;
+                    color:#fff;
+                    letter-spacing: 1px;
+                    outline: 0;
+                    border:none;
+                    border-radius: 50px;
+                    cursor: pointer;
+                }
+
+                    .sidebar__button:hover {
+                        font-size: 18px;
+                    }
+        /*START MAIN*/
+
+        .main {
+            flex: 68%;
+            margin-left: 2%;
+            background-color: #f3f3f3;
+            
+        }
+
+            .content__box {
+                padding: 30px;
+                box-shadow: 0 3px 6px rgba(0,0,0,0.05), 0 3px 6px rgba(0,0,0,0.13);
+                background: #fff;
+                border-radius: 8px;
+            
+            }
+        
+            .content__box:not(:first-child) {
+                margin-top:10px;
+            }
+
+                .content__box__title {
+                    text-transform: uppercase;
+                    margin:0;
+                    padding-bottom: 50px;
+                    font-size: 18px;
+                }
+
+                .content__box__subtitle {
+                    margin:0;
+                    padding-bottom: 15px;
+                    text-transform: uppercase;
+                    font-size: 25px;
+                }
+
+                .content__box__description {
+                    margin:0;
+                    margin-bottom:30px;
+                    font-size: 16px;
+                }
+
+                .content__box__contact {
+                    margin:0;
+                    color:#53a3ac;
+                    padding-bottom:30px;
+                }
+
+                .content__box__share {
+                    width: 130px;
+                    height: 38px;
+                    background-color: #fff;
+                    border-radius: 50px;
+                    border:solid 1px #c0e3e7;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    outline: none;
+                    margin-bottom: 35px;
+                }
+
+                    .content__box__share:hover {
+                        background-color:#c0e3e7;
+                        color:#53a3ac;
+                        font-weight: bold;
+                    }
+                
+                 
